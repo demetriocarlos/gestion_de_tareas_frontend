@@ -1,6 +1,6 @@
 import axios from "axios";
 const baseUrl = import.meta.env.VITE_API_URL;
-const logins = 'login'
+const logins = '/login'
 import { toast } from "react-toastify";
 
 // Función para hacer la solicitud de inicio de sesión

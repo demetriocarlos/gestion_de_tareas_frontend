@@ -1,6 +1,6 @@
 import axios from "axios";
 const baseUrl = import.meta.env.VITE_API_URL;
-const url = 'users'
+const url = '/users'
 import { toast } from "react-toastify";
 import api from "./api";
 //import { useNavigate } from "react-router-dom";
